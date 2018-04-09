@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import pe.edu.upc.materialsample.R;
-import pe.edu.upc.materialsample.viewcontrollers.fragments.DashboardFragment;
+import pe.edu.upc.materialsample.viewcontrollers.fragments.PeopleFragment;
 import pe.edu.upc.materialsample.viewcontrollers.fragments.HomeFragment;
 import pe.edu.upc.materialsample.viewcontrollers.fragments.SettingsFragment;
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private Fragment getFragmentFor(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.navigation_home: return new HomeFragment();
-            case R.id.navigation_dashboard: return new DashboardFragment();
+            case R.id.navigation_people: return new PeopleFragment();
             case R.id.navigation_settings: return new SettingsFragment();
             default: return new HomeFragment();
         }
