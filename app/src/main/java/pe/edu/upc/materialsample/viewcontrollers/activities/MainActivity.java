@@ -1,4 +1,4 @@
-package pe.edu.upc.materialsample;
+package pe.edu.upc.materialsample.viewcontrollers.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -6,7 +6,11 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
+
+import pe.edu.upc.materialsample.R;
+import pe.edu.upc.materialsample.viewcontrollers.fragments.DashboardFragment;
+import pe.edu.upc.materialsample.viewcontrollers.fragments.HomeFragment;
+import pe.edu.upc.materialsample.viewcontrollers.fragments.SettingsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
