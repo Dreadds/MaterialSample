@@ -12,6 +12,7 @@ public class PeopleRepository {
     }
 
     public static PeopleRepository getInstance(){
+        if(instance == null) instance = new PeopleRepository();
         return instance;
     }
 
